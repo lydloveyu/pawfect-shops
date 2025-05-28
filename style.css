@@ -1,0 +1,168 @@
+/* Custom Pastel Color Scheme */
+:root {
+    --pastel-pink: #ffd6e0;
+    --pastel-purple: hsl(240, 63%, 92%);
+    --pastel-blue: hsl(202, 100%, 71%);
+    --pastel-green: #d6ffd6;
+    --pastel-yellow: #ffffd6;
+}
+
+/* Background Colors */
+.bg-pastel-pink {
+    background-color: var(--pastel-pink);
+}
+
+.bg-pastel-purple {
+    background-color: var(--pastel-purple);
+}
+
+.bg-pastel-blue {
+    background-color: var(--pastel-blue);
+}
+
+.bg-pastel-green {
+    background-color: var(--pastel-green);
+}
+
+.bg-pastel-yellow {
+    background-color: var(--pastel-yellow);
+}
+
+/* Text Colors */
+.text-pastel-pink {
+    color: #ff85a2;
+}
+
+.text-pastel-purple {
+    color: #9393ff;
+}
+
+.text-pastel-blue {
+    color: #85d4ff;
+}
+
+.text-pastel-green {
+    color: #85ff85;
+}
+
+/* Button Colors */
+.btn-pastel-pink {
+    background-color: var(--pastel-pink);
+    color: #333;
+    border: none;
+}
+
+.btn-pastel-pink:hover {
+    background-color: #ffc0d1;
+    color: #333;
+}
+
+.btn-pastel-purple {
+    background-color: var(--pastel-purple);
+    color: #333;
+    border: none;
+}
+
+.btn-pastel-purple:hover {
+    background-color: #c0c0ff;
+    color: #333;
+}
+
+.btn-pastel-blue {
+    background-color: var(--pastel-blue);
+    color: #333;
+    border: none;
+}
+
+.btn-pastel-blue:hover {
+    background-color: #c0e7ff;
+    color: #333;
+}
+
+.btn-outline-pastel-purple {
+    border: 1px solid #9393ff;
+    color: #9393ff;
+}
+
+.btn-outline-pastel-purple:hover {
+    background-color: var(--pastel-purple);
+    color: #333;
+}
+
+/* Product Card */
+.product-card {
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Service Card */
+.service-card {
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Icon Box */
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+/* Contact Form */
+.contact-form .form-control {
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+.contact-form .form-control:focus {
+    border-color: #9393ff;
+    box-shadow: 0 0 0 0.25rem rgba(147, 147, 255, 0.25);
+}
+
+/* Team Card */
+.team-card {
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.team-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Map Container */
+.map-container {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section .row {
+        text-align: center;
+    }
+    
+    .hero-section img {
+        margin-top: 20px;
+    }
+}
